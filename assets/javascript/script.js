@@ -1,14 +1,13 @@
-      var config = {
-        apiKey: "AIzaSyDRlLk8PSaKx_qXe-NIU37Xwz644X6HUXo",
-        authDomain: "my-project-test-15b01.firebaseapp.com",
-        databaseURL: "https://my-project-test-15b01.firebaseio.com",
-        projectId: "my-project-test-15b01",
-        storageBucket: "my-project-test-15b01.appspot.com",
-        messagingSenderId: "899760887490"
-  };
-
-
-  firebase.initializeApp(config);
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyD2R29baJuBdQL7ZrGLSIiPx3Z1ebHLhM8",
+        authDomain: "trainschedule-4207c.firebaseapp.com",
+        databaseURL: "https://trainschedule-4207c.firebaseio.com",
+        projectId: "trainschedule-4207c",
+        storageBucket: "",
+        messagingSenderId: "430840335343"
+    };
+firebase.initializeApp(config); 
 
 var database = firebase.database();
 
